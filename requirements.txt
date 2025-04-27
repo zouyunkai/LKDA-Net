@@ -1,0 +1,19 @@
+# 核心依赖
+torch==2.0.1+cu117
+torchvision==0.15.2+cu117
+torchaudio==2.0.2
+monai==1.2.0
+timm==0.6.13
+
+# 数据处理与可视化
+numpy==1.23.5
+tqdm==4.65.0
+tensorboard==2.12.1
+
+# 医学图像处理
+nibabel==5.1.0
+SimpleITK==2.2.1
+
+# 其他工具
+einops==0.6.1
+matplotlib==3.7.1
