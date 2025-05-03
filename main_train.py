@@ -23,7 +23,7 @@ from tqdm import tqdm
 import argparse
 
 parser = argparse.ArgumentParser(description='  hyperparameters for medical image segmentation')
-## root参数是输入的数据集
+## root参数是输入的数据集 
 # /mnt/public/home/10431220 /datasets/DATASET_Synapse/unetr_pp_raw/unetr_pp_raw_data/Task02_Synapse
 # /mnt/public/home/10431220 /datasets/DATASET_Tumor/unetr_pp_raw/unetr_pp_raw_data/Task03_tumor
 parser.add_argument('--root', type=str, default='/mnt/public/home/220462/datasets/DATASET_Synapse/unetr_pp_raw/unetr_pp_raw_data/Task02_Synapse',   help='Root folder of all your images and labels')

@@ -20,7 +20,7 @@ parser.add_argument('--root', type=str, default='', required=True, help='Root fo
 parser.add_argument('--output', type=str, default='', required=True, help='Output folder for both tensorboard and the best model')
 parser.add_argument('--dataset', type=str, default='flare', required=True, help='Datasets: {feta, flare, amos}, Fyi: You can add your dataset here')
 
-## Input model & training hyperparameters
+## Input model & training hyperparameters 
 parser.add_argument('--network', type=str, default='LKDA_net', required=True, help='Network models: {TransBTS, nnFormer, UNETR, SwinUNETR, LKDA_net}')
 parser.add_argument('--trained_weights', default='', required=True, help='Path of pretrained/fine-tuned weights')
 parser.add_argument('--mode', type=str, default='test', help='Training or testing mode')

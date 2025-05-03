@@ -15,7 +15,7 @@ class LayerNorm3D(nn.Module):
         self.normalized_shape = (normalized_shape,)
 
     def forward(self, x):
-        # 通道维度在第二维 (N, C, D, H, W)
+        # 通道维度在第二维 (N, C, D, H, W) 
         u = x.mean(1, keepdim=True)
         s = (x - u).pow(2).mean(1, keepdim=True)
         x = (x - u) / torch.sqrt(s + self.eps)

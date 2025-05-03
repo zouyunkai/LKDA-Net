@@ -1,7 +1,7 @@
 
 { 
 
-"name": "BRATS", 
+"name": "BRATS",  
 "description": "Gliomas segmentation tumour and oedema in on brain images",
 "reference": "https://www.med.upenn.edu/sbia/brats2017.html",
 "licence":"CC-BY-SA 4.0",

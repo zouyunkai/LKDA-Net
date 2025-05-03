@@ -159,7 +159,7 @@
         },
         {
             "image": "./imagesTr/img0040.nii.gz",
-            "label": "./labelsTr/label0040.nii.gz"
+            "label":  "./labelsTr/label0040.nii.gz"
         }
     ]
 }
