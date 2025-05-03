@@ -4,7 +4,7 @@
 ![PyTorch Version](https://img.shields.io/badge/PyTorch-1.12%2B-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-LKDA-Net 是一种轻量化的3D医学图像分割网络，通过 **大核深度可分离卷积注意力（LKD Attention）** 和 **跳跃连接融合模块**，在降低计算复杂度的同时实现高精度分割。本仓库提供完整的训练、推理及可视化代码。
+LKDA-Net 是一种轻量化的3D医学图像分割网络，通过 **大核深度可分离卷积注意力（LKD Attention）** 和 **跳跃连接融合模块**，在降低计算复杂度的同时实现高精度分割。本仓库提供完整的训练、推理及可视化代码。 
 
 We propose a lightweight three-dimensional convolutional network, LKDA-Net, for efficient and accurate three-dimensional volumetric segmentation. This network adopts a large-kernel depthwise  convolution attention mechanism to simulate the self-attention mechanism of Transformers. Firstly, inspired by the Swin Transformer module, we investigate different-sized large-kernel convolution attention mechanisms to obtain larger global receptive fields, and replace the MLP in the Swin Transformer with the Inverted Bottleneck with Depthwise Convolutional Augmentation to reduce channel redundancy and enhance feature expression and segmentation performance. Secondly, we propose a skip connection fusion module to achieve smooth feature fusion, enabling the decoder to effectively utilize the features of the encoder. Finally, through experimental evaluations on three public datasets, namely Synapse, BTCV and ACDC, LKDA-Net outperforms existing models of various architectures in segmentation performance and has fewer parameters.
 
