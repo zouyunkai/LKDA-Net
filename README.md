@@ -18,7 +18,7 @@ We propose a lightweight three-dimensional convolutional network, LKDA-Net, for 
 • 双重注意力机制：
   • 通道注意力：通过SE模块动态校准通道重要性
   • 空间注意力：结合最大/平均池化生成空间权重图
-• 轻量化设计：使用深度可分离卷积，参数量仅为标准卷积的1/9
+• 轻量化设计：使用深度可分离卷积，参数量仅为标准卷积的1/9 
 • 残差连接：保留原始特征信息，缓解梯度消失问题
 
 
@@ -64,6 +64,7 @@ git clone https://github.com/zouyunkai/LKDA-Net.git
 cd LKDA-Net
 pip install -r requirements.txt
 ```
+
 ###  Training
 
 #### Synapse Multi-Organ Dataset:
